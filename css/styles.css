@@ -1,0 +1,12 @@
+.navbar-nav{
+    margin-left: 500px;
+}
+
+@media screen and (max-width: 985px) {
+    body {
+      background-color: rgb(10, 158, 208);
+    }
+    .navbar-nav{
+        margin-left: 0;
+    }
+  }
