@@ -34,6 +34,7 @@ button{
     background-color: #F98D49;
     color: #fff;
     margin-top: 50px;
+    margin-bottom: 100px;
     border-radius: 50px;
     border-color:#F98D49; 
 }
@@ -42,6 +43,18 @@ button{
     position: absolute;
     top: 300px;
     right: 350px;
+}
+.order-now{
+    height: 100vh;
+    color: #F98D49;
+}
+.pizza-image{
+    margin-top: 50px;
+    height: 150px;
+}
+.pizza-text > h3{
+    color: #F98D49;
+    margin-top: 25px;
 }
 @media screen and (max-width: 985px) {
     body {
