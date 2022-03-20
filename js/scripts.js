@@ -1,44 +1,16 @@
-// Business Logic
-function PizzaSize(size, price){
-    this.size = size;
-    this.price = price;
-}
-
-function PizzaCrust(crust, price){
-    this.crust = crust;
-    this.price = price;
-}
-
-function PizzaTopping(topping, price){
-    this.topping = topping;
-    this.price = price;
-}
-
-// Add objects to PizzaSize Constructor
-let small = new PizzaSize("Small", 400);
-let medium = new PizzaSize("Medium", 800);
-let large = new PizzaSize("Large", 1200);
-
-// Add objects to PizzaCrust Constructor
-let stuffed = new PizzaCrust("Stuffed", 100);
-let crispy = new PizzaCrust("Crispy", 150);
-let glutten = new PizzaCrust("Glutten-free", 200);
-
-// Add objects to PizzaTopping Constructor
-let pepporoni = new PizzaTopping("Pepporoni", 50);
-let mushroom = new PizzaTopping("Mushroom", 100);
-let bacon = new PizzaTopping("Bacon", 150);
-
-// The User INterface using jQuery
-
 $(document).ready(function(){
-    // let small = new PizzaSize("Small", 400);
     $("#order-button").click(function(event){
         let pizzaSize = $("#size option:selected").val();
+        let pizzaCrust = $("#crusts option:selected").val();
+        let pizzaTopping = $("#toppings option:selected").val();
         if (pizzaSize === small.size){
-            // alert(small.price);
             console.log(small.price);
         }
-        // alert(small.price)
+        if (pizzaTopping === pepporoni.topping){
+            console.log(pepporoni.price)
+        }
+        if (pizzaCrust === stuffed.crust){
+            console.log(stuffed.price);
+        }
     });
 })
