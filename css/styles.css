@@ -37,6 +37,12 @@ button{
     border-radius: 50px;
     border-color:#F98D49; 
 }
+.image{
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    right: 350px;
+}
 @media screen and (max-width: 985px) {
     body {
       background-color: rgb(10, 158, 208);
@@ -47,12 +53,22 @@ button{
     .navbar-toggler{
         margin-right: 50px;
     }
-    /* .navbar-toggler-icon{
-        margin-left: 0;
-    } */
     .description-text{
         width: 250px;
         line-height: 1.5;
         letter-spacing: 1px;
+    }
+    .image{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 150px;
+        position: absolute;
+        top: 450px;
+        right: 250px;
+    }
+    .call-to-action{
+        margin-top: 200px;
     }
   }
