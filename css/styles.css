@@ -56,7 +56,7 @@ button{
     color: #F98D49;
     margin-top: 25px;
 }
-#size{
+#size, #toppings{
     width: 150px;
     color: #b34e0f;
 }
