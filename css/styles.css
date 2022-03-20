@@ -51,7 +51,13 @@ button{
         margin-left: 0;
     }
     .navbar-toggler{
-        margin-right: 75px;
+        margin-right: 5px;
+    }
+    .header-text{
+        height: 80vh;
+        width: 70vw;
+        /* border: 2px solid red; */
+        margin-bottom: 100px;
     }
     .description-text{
         width: 200px;
@@ -59,13 +65,14 @@ button{
         letter-spacing: 1px;
     }
     .image{
-        margin-top: 100px;
-        height: 150px;
+        margin-top: 125px;
+        height: 100px;
         position: absolute;
-        top: 450px;
-        right: 200px;
+        top: 550px;
+        right: 250px;
     }
     .call-to-action{
-        margin-top: 250px;
+        margin-bottom: 50px;
+        margin-left: 15px;
     }
   }
