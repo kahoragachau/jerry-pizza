@@ -56,6 +56,10 @@ button{
     color: #F98D49;
     margin-top: 25px;
 }
+#size{
+    width: 150px;
+    color: #b34e0f;
+}
 @media screen and (max-width: 985px) {
     body {
       background-color: rgb(10, 158, 208);
