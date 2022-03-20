@@ -9,6 +9,10 @@ function PizzaCrust(crust, price){
     this.price = price;
 }
 
+function PizzaTopping(topping, price){
+    this.topping = topping;
+    this.price = price;
+}
 let orderBtn = document.getElementById("order-button");
 orderBtn.addEventListener('click', displayOrderSummary);
 
