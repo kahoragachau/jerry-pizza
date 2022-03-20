@@ -19,6 +19,11 @@ let small = new PizzaSize("Small", 400);
 let medium = new PizzaSize("Medium", 800);
 let large = new PizzaSize("Large", 1200);
 
+// Add objects to PizzaCrust Constructor
+let pepporoni = new PizzaCrust("Pepporoni", 100);
+let mushroom = new PizzaCrust("Mushroom", 150);
+let bacon = new PizzaCrust("bacon");
+
 let orderBtn = document.getElementById("order-button");
 orderBtn.addEventListener('click', displayOrderSummary);
 
