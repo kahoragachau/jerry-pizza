@@ -49,7 +49,7 @@
       <!-- Pick order section -->
       <div class="row">
         <section class="order-now">
-          <h3 class="header text-center" id="order">Place Your Order</h3>
+          <h3 class="header" id="order">Place Your Order</h3>
           <div class="row">
             <section class="col-md-4 col-sm-12">
               <img class="pizza-image" src="images/pizza2.png" alt="pizza image">
@@ -97,24 +97,38 @@
             </div>
           </div>
         </section>
-        <!-- <div class="row">
-          <button class="order-now-button ">Order</button>
-        </div> -->
       </div>
       <!-- Display Order Summary -->
       <section class="display-summary">
         <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div class="output">
-
-            </div>
+          <div class="row">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Order No</th>
+                  <th scope="col">Pizza Size</th>
+                  <th scope="col">Pizza Topping</th>
+                  <th scope="col">Pizza Crust</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody class="output">
+                <tr>
+                  <th scope="row">1</th>
+                  <td id="pizSize"></td>
+                  <td id="pizTopping"></td>
+                  <td id="pizCrust"></td>
+                  <td id="total"></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div class="row">
             <div class="col-md-4 col-sm-12">
-              <button class="add-another-order">Add Another</button>
+              <button class="add-another-order" id="add-another-order-button">Add Another</button>
             </div>
             <div class="col-md-4 col-sm-12">
-              <button class="add-another-order">Checkout</button>
+              <button class="add-another-order" id="checkout">Checkout</button>
             </div>
           </div>
         </div>

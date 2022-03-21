@@ -47,7 +47,7 @@ button{
     right: 350px;
 }
 .order-now{
-    height: 100vh;
+    height: 70vh;
     color: #F98D49;
 }
 .pizza-image{
@@ -74,12 +74,19 @@ button{
     border-style: none;
     height: 50px;
     width: 500px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 250px;
     margin-bottom: 10px;
 }
 .display-summary{
     display: none;
+}
+.output{
+    border: 2px dotted red;
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-left: 250px;
 }
 .add-another-order{
     border-style: none;
@@ -89,27 +96,28 @@ button{
     height: 50px;
     width: 200px;
     padding: 10px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     margin-left: 250px;
 }
 @media screen and (max-width: 985px) {
     body {
       background-color: rgb(10, 158, 208);
+      margin: 0px !important;
     }
     .navbar-nav{
         margin-left: 0;
     }
     .navbar-toggler{
-        margin-right: 5px;
+        margin-right: 100px;
     }
     .header-text{
-        height: 80vh;
-        width: 70vw;
-        /* border: 2px solid red; */
+        height: 60vh;
+        width: 60vw;
         margin-bottom: 100px;
     }
     .description-text{
-        width: 200px;
+        height: 30px;
+        width: 150px;
         line-height: 1.5;
         letter-spacing: 1px;
     }
@@ -117,15 +125,37 @@ button{
         margin-top: 125px;
         height: 100px;
         position: absolute;
-        top: 550px;
+        top: 500px;
+        bottom: 0;
         right: 250px;
     }
     .call-to-action{
         margin-bottom: 50px;
-        margin-left: 15px;
+        /* margin-left: 15px; */
     }
     .order-now-button{
         margin-left: 0;
         width: 150px;
+    }
+    .display-summary{
+        display: none;
+    }
+    .output{
+        border: 2px dotted red;
+        width: 250px;
+        padding: 10px;
+        margin-top: 600px;
+        margin-left: 0;
+    }
+    .add-another-order{
+        border-style: none;
+        border-radius: 100px;
+        background-color: #F98D49;
+        color: #fff;
+        height: 50px;
+        width: 200px;
+        padding: 10px;
+        margin-bottom: 25px;
+        margin-left: 0px;
     }
   }
