@@ -99,6 +99,11 @@ button{
     /* margin-bottom: 100px; */
     margin-left: 250px;
 }
+#grandTotal {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+}
 @media screen and (max-width: 985px) {
     body {
       background-color: rgb(10, 158, 208);
@@ -108,37 +113,37 @@ button{
         margin-left: 0;
     }
     .navbar-toggler{
-        margin-right: 25px;
+        margin-right: 0;
     }
     .header-text{
-        height: 60vh;
+        height: 40vh;
         width: 60vw;
         margin-bottom: 100px;
     }
     .description-text{
         height: 30px;
-        width: 150px;
+        width: 250px;
         line-height: 1.5;
         letter-spacing: 1px;
     }
     .image{
-        margin-top: 125px;
-        height: 100px;
-        position: absolute;
-        top: 500px;
-        bottom: 0;
-        right: 250px;
+        display: none;
     }
     .call-to-action{
         margin-bottom: 50px;
-        /* margin-left: 15px; */
+        margin-left: 15px;
     }
     .order-now-button{
         margin-left: 0;
         width: 150px;
     }
+    .order-now{
+        margin-left: 25px;
+    }
     .display-summary{
-        display: none;
+        /* display: none; */
+        margin-top: 500px;
+        margin-left: 15px;
     }
     .output{
         border: 2px dotted red;
@@ -153,7 +158,7 @@ button{
         background-color: #F98D49;
         color: #fff;
         height: 50px;
-        width: 200px;
+        width: 150px;
         padding: 10px;
         margin-bottom: 25px;
         margin-left: 0px;

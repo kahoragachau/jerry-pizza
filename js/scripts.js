@@ -188,11 +188,11 @@ $(document).ready(function(){
         let total = sizeTotal + crustTotal + toppingTotal;
         let grandTotal = total * orderNumber;
         if (confirmation){
-            grandTotal += 250;
-            alert(grandTotal);
+            $("#grandTotal").html("Your Grand Total is " + (grandTotal += 250) + " Enjoy Your Meal");
         }
         else {
-            alert(grandTotal)
+            ("#grandTotal").html("Your Grand Total is " + (grandTotal) + " Enjoy Your Meal");
         }
+        $(".add-another-order").hide();
     })
 })
